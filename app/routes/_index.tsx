@@ -35,8 +35,8 @@ export default function Index() {
       <div className="mt-8 text-sm space-y-4">
         <p className="">Made with remix & Tailwind CSS</p>
         <p>
-          The data is coming from https://api.kanye.rest/ and the api credit
-          goes to the rightful owner{" "}
+          The data is coming from https://api.kanye.rest and the api credit goes
+          to the rightful owner{" "}
           <a
             target="_blank"
             rel="noreferrer"
@@ -53,7 +53,12 @@ export default function Index() {
           tbh.
         </p>
 
-        <a target="_blank" rel="noreferrer" className="text-blue-500" href="f">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          className="text-blue-500"
+          href="https://github.com/i701/remix-kanye"
+        >
           Source code
         </a>
       </div>
